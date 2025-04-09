@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/04/08 09:38:11.000.153,=C:\Users\EMANUEL\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/04/08 09:43:32.000.871,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\views\view.principal.pas=C:\Users\EMANUEL\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/04/08 09:43:32.000.871,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\views\view.principal.dfm=C:\Users\EMANUEL\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2025/04/08 09:44:08.000.660,C:\Users\EMANUEL\Documents\Embarcadero\Studio\Projects\ProjetoSistemaAvaliações.dproj=C:\Users\EMANUEL\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/04/08 09:44:19.000.209,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\ProjetoSistemaAvaliações.dproj=C:\Users\EMANUEL\Documents\Embarcadero\Studio\Projects\ProjetoSistemaAvaliações.dproj</Transaction>
+    <Transaction>2025/04/08 10:15:19.000.003,=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.pas</Transaction>
+    <Transaction>2025/04/08 10:16:37.000.807,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\views\view.modal.nova.avaliacao.dfm=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.dfm</Transaction>
+    <Transaction>2025/04/08 10:16:37.000.807,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\views\view.modal.nova.avaliacao.pas=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.pas</Transaction>
+    <Transaction>2025/04/08 10:36:24.000.175,=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.pas</Transaction>
+    <Transaction>2025/04/08 10:36:36.000.051,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\views\view.fundo.pas=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.pas</Transaction>
+    <Transaction>2025/04/08 10:36:36.000.051,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\views\view.fundo.dfm=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.dfm</Transaction>
+    <Transaction>2025/04/08 12:26:10.000.387,=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.pas</Transaction>
+    <Transaction>2025/04/08 12:26:25.000.007,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.dfm=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\services\service.conexao.dfm</Transaction>
+    <Transaction>2025/04/08 12:26:25.000.007,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.pas=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\services\service.conexao.pas</Transaction>
+    <Transaction>2025/04/08 14:55:48.000.168,=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.pas</Transaction>
+    <Transaction>2025/04/08 14:56:03.000.647,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.dfm=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\views\view.cadastro.dfm</Transaction>
+    <Transaction>2025/04/08 14:56:03.000.647,C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\Unit1.pas=C:\Users\EMANUEL\Desktop\+\Sistema de Avaliações\views\view.cadastro.pas</Transaction>
+  </Transactions>
+</BorlandProject>

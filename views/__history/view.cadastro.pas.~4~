@@ -1,0 +1,53 @@
+unit view.cadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Vcl.Buttons, Vcl.StdCtrls;
+
+type
+  TViewCadastro = class(TForm)
+    pnlContent: TPanel;
+    lblNomeCompleto: TLabel;
+    lblInfo: TLabel;
+    edtCategoria: TEdit;
+    pnlBtnSalvar: TPanel;
+    btnSalvar: TSpeedButton;
+    pnlHeader: TPanel;
+    Image1: TImage;
+    pnlBtnClose: TPanel;
+    btnClose: TSpeedButton;
+    lblcpf: TLabel;
+    Edit1: TEdit;
+    lblTelefone: TLabel;
+    Edit2: TEdit;
+    lblEmail: TLabel;
+    edtEmail: TEdit;
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnSalvarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ViewCadastro: TViewCadastro;
+
+implementation
+
+{$R *.dfm}
+
+procedure TViewCadastro.btnCloseClick(Sender: TObject);
+begin
+  Self.Close;
+end;
+
+procedure TViewCadastro.btnSalvarClick(Sender: TObject);
+begin
+  ShowMessage('Salvo com sucesso!');
+end;
+
+end.

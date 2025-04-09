@@ -1,0 +1,51 @@
+unit view.principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.pngimage,
+  Vcl.Buttons, view.modal.nova.avaliacao;
+
+type
+  TViewPrincipal = class(TForm)
+    pnlHeader: TPanel;
+    pnlFooter: TPanel;
+    pnlContent: TPanel;
+    Image1: TImage;
+    pnlButtons: TPanel;
+    pnlBtnNovaAvaliacao: TPanel;
+    btnNovaAvaliacao: TSpeedButton;
+    pnlBtnClose: TPanel;
+    btnClose: TSpeedButton;
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnNovaAvaliacaoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ViewPrincipal: TViewPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TViewPrincipal.btnCloseClick(Sender: TObject);
+begin
+  Application.Terminate;
+end;
+
+procedure TViewPrincipal.btnNovaAvaliacaoClick(Sender: TObject);
+begin
+  v
+  try
+
+  finally
+
+  end;
+end;
+
+end.

@@ -1,0 +1,56 @@
+unit view.modal.nova.avaliacao;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TViewNovaAvaliacao = class(TForm)
+    pnlHeader: TPanel;
+    Image1: TImage;
+    pnlBtnClose: TPanel;
+    btnClose: TSpeedButton;
+    pnlContent: TPanel;
+    cbAvaliador: TComboBox;
+    cbAvaliado: TComboBox;
+    lblAvaliador: TLabel;
+    ComboBox3: TComboBox;
+    edtComentario: TMemo;
+    edtCategoria: TEdit;
+    lblAvaliado: TLabel;
+    lblNota: TLabel;
+    lblCategoria: TLabel;
+    lblComentário: TLabel;
+    pnlBtnEnviar: TPanel;
+    btnEnviar: TSpeedButton;
+    lblDica: TLabel;
+    lblInfo: TLabel;
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnEnviarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ViewNovaAvaliacao: TViewNovaAvaliacao;
+
+implementation
+
+{$R *.dfm}
+
+procedure TViewNovaAvaliacao.btnCloseClick(Sender: TObject);
+begin
+  Self.Close;
+end;
+
+procedure TViewNovaAvaliacao.btnEnviarClick(Sender: TObject);
+begin
+  ShowMessage('Obrigado pelo seu feedback!');
+end;
+
+end.
